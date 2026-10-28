@@ -1,0 +1,48 @@
+/* Alicia Comic 小站：纸与墨，和 App 一个调子。 */
+:root{--paper:#F1EFEA;--card:#FBFBF8;--ink:#1D1F22;--ink2:#5E6268;--rule:rgba(29,31,34,.12);--accent:#A8361F;
+  --display:'Noto Serif SC';--body:'Noto Serif SC','Noto Serif JP',Newsreader,'Songti SC',Georgia,serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--paper:#1D1A17;--card:#2A2622;--ink:#EDE4D4;--ink2:#A39885;--rule:rgba(237,228,212,.14);--accent:#E0876B;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 var(--body);
+  padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+html:lang(ja){--body:'Noto Serif JP','Hiragino Mincho ProN',serif}
+html:lang(en),html:lang(fr){--body:Newsreader,Georgia,serif}
+a{color:var(--accent);text-underline-offset:3px}
+.bar,main,footer{max-width:960px;margin:0 auto}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0;border-bottom:1px solid var(--rule);flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font:500 20px/1 Newsreader,Georgia,serif;letter-spacing:.01em}
+.brand img{border-radius:7px}
+.bar nav{display:flex;gap:18px;flex-wrap:wrap}
+.bar nav a{color:var(--ink2);text-decoration:none;font-size:15px}
+.bar nav a[aria-current]{color:var(--ink);border-bottom:2px solid var(--accent)}
+main{padding:56px 0 24px}
+h1,h2,h3{font-family:var(--display),var(--body);font-weight:600;text-wrap:balance;line-height:1.3}
+.hero h1{font-size:clamp(32px,6vw,52px);margin:0 0 20px;letter-spacing:.02em}
+.lead{font-size:19px;color:var(--ink);max-width:40em;margin:0 0 12px}
+.status{color:var(--ink2);font-size:15px;margin:0}
+.shots{display:flex;gap:16px;overflow-x:auto;padding:40px 0 8px;scroll-snap-type:x mandatory}
+.shots img{flex:0 0 auto;width:min(240px,62vw);height:auto;border-radius:14px;scroll-snap-align:start;box-shadow:0 18px 36px -24px rgba(0,0,0,.5)}
+.features{list-style:none;padding:0;margin:48px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px 36px}
+.features li{border-top:1px solid var(--rule);padding-top:14px;min-width:0}
+.features h3{font-size:19px;margin:0 0 6px}
+.features p{margin:0;color:var(--ink2);font-size:16px}
+.note{margin:44px 0 0;padding:16px 18px;background:var(--card);border-left:3px solid var(--accent);border-radius:4px;font-size:16px}
+.credit{color:var(--ink2);font-size:14px;margin-top:28px}
+.doc{max-width:40em}
+.doc h1{font-size:clamp(30px,5vw,42px);margin:0 0 14px}
+.doc h2{font-size:20px;margin:34px 0 6px}
+.doc p{margin:0 0 10px}
+.meta{color:var(--ink2);font-size:14px}
+.contact{margin:18px 0 30px}
+details{border-top:1px solid var(--rule);padding:14px 0}
+details:last-of-type{border-bottom:1px solid var(--rule)}
+summary{cursor:pointer;font-weight:600;font-family:var(--display),var(--body)}
+details p{color:var(--ink2);margin:10px 0 0}
+footer{border-top:1px solid var(--rule);padding:22px 0 40px;color:var(--ink2);font-size:14px}
+.langs{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:8px}
+.langs a{color:var(--ink2);text-decoration:none}
+.langs a[aria-current]{color:var(--ink)}
+.pick{min-height:80vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center}
+.pick img{border-radius:14px}
+.pick h1{font:500 34px/1.2 Newsreader,Georgia,serif;margin:0}
