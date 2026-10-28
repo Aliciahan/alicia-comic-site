@@ -206,7 +206,7 @@ def page(lang, kind, title, body):
 def index(lang):
     t = T[lang]
     feats = "".join(f"<li><h3>{e(h)}</h3><p>{e(p)}</p></li>" for h, p in t["features"])
-    shots = "".join(f'<img src="../assets/shots/{lang}-{i}.jpg" alt="" loading="lazy" width="420" height="912">' for i in range(1, 9)) if os.path.exists(os.path.join(ROOT, "assets", "shots", f"{lang}-1.jpg")) else ""
+    shots = "".join(f'<img src="../assets/shots/{lang}-{i}.jpg" alt="" loading="lazy" width="420" height="912">' for i in range(1, 7)) if os.path.exists(os.path.join(ROOT, "assets", "shots", f"{lang}-1.jpg")) else ""
     body = f"""<section class="hero"><h1>{e(t['tagline'])}</h1><p class="lead">{e(t['lead'])}</p><p class="status">{e(t['status'])}</p></section>
 {f'<section class="shots">{shots}</section>' if shots else ''}
 <section><ul class="features">{feats}</ul><p class="note">{e(t['duo'])}</p><p class="credit">{e(t['credit'])}</p></section>"""
