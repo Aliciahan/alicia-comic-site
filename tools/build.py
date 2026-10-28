@@ -15,10 +15,10 @@ T = {
     nav=("介绍", "支持", "隐私"),
     tagline="为折叠屏而生的漫画阅读器",
     lead="读你自己的书库：CBZ、EPUB、PDF、图片文件夹，或家里 NAS 上的 Komga / OPDS。低清老漫画也能看清网点和线条。",
-    duo="iPhone Duo 的外屏、展开、半开三种排法目前按模拟器调好，真机适配从 2026 年 11 月末开始。",
+    duo="iPhone Duo 展开横拿就是一本翻开的单行本，铰链落在书缝上；竖着拿一整页铺满；合上外屏也有专属排法。目前按模拟器调好，真机适配从 2026 年 11 月末开始。",
     status="1.0 正在 TestFlight 内测，上架后这里会放 App Store 链接。",
     features=[
-        ("超清", "App 自己训练的漫画超分把低分辨率黑白页放大，网点和线条不糊；第一次打开时像配眼镜一样，在「印刷感」和「平滑」里挑一副。"),
+        ("超清引擎", "自己训练的漫画超分，在 iPhone 上把低清黑白页的网点和线条重新画清楚，彩页用系统超分；全部在设备上完成，不上传任何一页。第一次像配眼镜一样在「印刷感」和「平滑」里挑一副，插电过夜时先把接下来要读的页做好。"),
         ("一格一格读", "自动认出分镜和对白，按阅读方向一格格看。"),
         ("翻译", "对白在设备上翻译，按住看原文。"),
         ("纸与墨", "素净的纸色、书脊排成的书架、跟着系统深色的夜读。"),
@@ -55,10 +55,10 @@ T = {
     nav=("About", "Support", "Privacy"),
     tagline="The manga reader for foldables",
     lead="Read your own library: CBZ, EPUB, PDF, image folders, or a Komga / OPDS server on your NAS. Even old low-res scans keep their screentones and lines.",
-    duo="The iPhone Duo layouts — outer screen, open spread and half-open tent — are tuned in the simulator today; on-device tuning starts in late November 2026.",
+    duo="Open iPhone Duo sideways and it becomes an open volume, with the hinge on the gutter; upright, one page fills the screen; closed, the outer screen has its own layout. Tuned in the simulator today; on-device tuning starts in late November 2026.",
     status="Version 1.0 is in TestFlight testing. The App Store link will appear here at launch.",
     features=[
-        ("HD", "The app’s own manga upscaling model enlarges low-resolution black-and-white pages without blurring screentones or lines. The first time, pick “Print-like” or “Smooth” like an eye test."),
+        ("HD Engine", "Our own manga upscaling model redraws the screentones and lines of low-res black-and-white pages right on your iPhone; color pages use the system upscaler. Nothing is uploaded. Pick “Print-like” or “Smooth” like an eye test, and while charging overnight the pages you’ll read next are prepared in HD."),
         ("Panel by panel", "Panels and dialogue are detected automatically and shown one by one in reading order."),
         ("Translation", "Dialogue is translated on device; hold to see the original."),
         ("Paper & ink", "A calm paper tone, a shelf of real spines, and night reading that follows Dark Mode."),
@@ -95,10 +95,10 @@ T = {
     nav=("紹介", "サポート", "プライバシー"),
     tagline="折りたたみ画面のための漫画リーダー",
     lead="あなた自身のライブラリを読むためのアプリ。CBZ、EPUB、PDF、画像フォルダ、NAS 上の Komga / OPDS に対応。解像度の低い古いスキャンでも、トーンと線がくっきり。",
-    duo="iPhone Duo の外側の画面・見開き・テント型の3つのレイアウトは現在シミュレータで調整しており、実機での調整は2026年11月末から始めます。",
+    duo="iPhone Duo を横に開けば見開きの単行本、ヒンジがちょうどノドに。縦に持てば一ページが画面いっぱい、閉じても外側の画面専用のレイアウト。現在はシミュレータで調整しており、実機での調整は2026年11月末から始めます。",
     status="バージョン 1.0 は TestFlight でテスト中です。公開後、ここに App Store へのリンクを掲載します。",
     features=[
-        ("高画質", "このアプリのために学習させた漫画用超解像モデルで、低解像度の白黒ページを拡大。トーンも線もつぶれません。最初の一回は眼鏡を選ぶように「印刷風」と「なめらか」から選べます。"),
+        ("高画質エンジン", "独自に学習させた漫画用超解像で、低画質の白黒ページのトーンと線を iPhone の中で描き直します。カラーはシステムの超解像。ページは外に送りません。眼鏡を選ぶように「印刷風」と「なめらか」を選べ、夜の充電中に次のページを先に高画質化します。"),
         ("コマ送り", "コマとセリフを自動で見つけ、読む順に一コマずつ表示します。"),
         ("翻訳", "セリフは端末内で翻訳。長押しで原文が見られます。"),
         ("紙とインク", "落ち着いた紙の色、背表紙が並ぶ本棚、ダークモードに合わせた夜の読書。"),
@@ -135,10 +135,10 @@ T = {
     nav=("Présentation", "Assistance", "Confidentialité"),
     tagline="Le manga sur écran pliable",
     lead="Lisez votre propre bibliothèque : CBZ, EPUB, PDF, dossiers d’images, ou un serveur Komga / OPDS sur votre NAS. Même les vieux scans basse définition gardent leurs trames et leurs traits.",
-    duo="Les mises en page iPhone Duo — écran extérieur, double page ouverte et position tente — sont réglées sur le simulateur pour l’instant ; les réglages sur l’appareil réel commencent fin novembre 2026.",
+    duo="Ouvert à l’horizontale, l’iPhone Duo devient un tome ouvert, la charnière dans la reliure ; à la verticale, une page occupe tout l’écran ; fermé, l’écran extérieur a sa mise en page. Réglé sur le simulateur pour l’instant ; réglages sur l’appareil réel dès fin novembre 2026.",
     status="La version 1.0 est en test sur TestFlight. Le lien App Store apparaîtra ici à la sortie.",
     features=[
-        ("HD", "Le modèle de super-résolution manga entraîné pour l’app agrandit les pages noir et blanc basse définition sans empâter trames ni traits. La première fois, choisissez « Imprimé » ou « Lisse », comme chez l’opticien."),
+        ("Moteur HD", "Notre super-résolution manga redessine trames et traits des pages noir et blanc basse définition, directement sur l’iPhone ; la couleur passe par le système. Rien n’est envoyé. Choisissez « Imprimé » ou « Lisse » comme chez l’opticien ; la nuit, en charge, les pages suivantes sont préparées en HD."),
         ("Case par case", "Cases et bulles sont détectées automatiquement et affichées une à une dans le sens de lecture."),
         ("Traduction", "Les dialogues sont traduits sur l’appareil ; maintenez le doigt pour voir l’original."),
         ("Papier et encre", "Un ton papier sobre, une étagère de vrais dos de livres, et une lecture de nuit qui suit le mode sombre."),
@@ -206,7 +206,7 @@ def page(lang, kind, title, body):
 def index(lang):
     t = T[lang]
     feats = "".join(f"<li><h3>{e(h)}</h3><p>{e(p)}</p></li>" for h, p in t["features"])
-    shots = "".join(f'<img src="../assets/shots/{lang}-{i}.jpg" alt="" loading="lazy" width="420" height="912">' for i in range(1, 7)) if os.path.exists(os.path.join(ROOT, "assets", "shots", f"{lang}-1.jpg")) else ""
+    shots = "".join(f'<img src="../assets/shots/{lang}-{i}.jpg" alt="" loading="lazy" width="420" height="912">' for i in range(1, 9)) if os.path.exists(os.path.join(ROOT, "assets", "shots", f"{lang}-1.jpg")) else ""
     body = f"""<section class="hero"><h1>{e(t['tagline'])}</h1><p class="lead">{e(t['lead'])}</p><p class="status">{e(t['status'])}</p></section>
 {f'<section class="shots">{shots}</section>' if shots else ''}
 <section><ul class="features">{feats}</ul><p class="note">{e(t['duo'])}</p><p class="credit">{e(t['credit'])}</p></section>"""
